@@ -1,7 +1,15 @@
-body{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-    background: linear-gradient(104.92deg, #B7A8C4 2.68%, rgba(228, 224, 224, 0) 102.61%), #FFFFFF;
+*{background: 
+    linear-gradient(104.92deg,#8e7a9f 2.68%, rgba(228, 224, 224, 0) 102.61%), #FFFFFF;}
+.cabecalho{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24;
+}    
+.cabecalho-Imgem{
+    height: 550px;
 }
